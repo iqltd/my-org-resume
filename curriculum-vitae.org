@@ -50,10 +50,6 @@
 #+LATEX_CLASS: altacv
 #+LATEX_HEADER: \columnratio{0.6} % Set the left/right column width ratio to 6:4.
 #+LATEX_HEADER: \usepackage[bottom]{footmisc}
-*** Bibliography
-#+LATEX_HEADER: \DeclareNameAlias{sortname}{given-family}
-#+LATEX_HEADER: \addbibresource{aidan.bib}
-#+LATEX_HEADER: \usepackage[style=trad-abbrv,sorting=none,sortcites=true,doi=false,url=false,giveninits=true,hyperref]{biblatex}
 
 ** Exporter Settings
 #+AUTHOR: Valentin Musoiu
@@ -70,7 +66,7 @@
 ** Photo & Tagline :ignore:
 #+begin_export latex
 \name{Valentin Mușoiu}
-\photoR{2.8cm}{vali_2017.jpeg}
+\photoR{2.8cm}{vali_2023.jpeg}
 \tagline{Software engineer}
 #+end_export
 
@@ -80,7 +76,7 @@
   \email{valentin.musoiu@gmail.com}
   \location{Ploiești, RO}
   \github{iqltd}
-  \linkedin{valims}
+  \linkedin{iqltd}
   \dob{25 November 1987}
 }
 \makecvheader
@@ -93,14 +89,15 @@
 ** Personal Statement Default :ignore:
 #+begin_export latex
  \begin{quote}
- ``Software engineer with an extensive experience but also a healthy amount of self-doubt''
+ ``Software engineer with an extensive experience and a healthy amount of self-doubt''
  \end{quote}
 #+end_export
+
 ** Experience
 *** EMQ :ignore:
 {{{cvevent(Backend engineer, EMQ Inc., July 2017 -- Ongoing, Taipei\, TW/Remote)}}}
 
-Building and maintaining a resilient backend for a fast-growing remittance company.
+Building and maintaining a resilient backend for a fast-growing international remittance company.
 
 #+BEGIN_EXPORT latex
 \smallskip
@@ -109,7 +106,7 @@ Building and maintaining a resilient backend for a fast-growing remittance compa
 Things I am proud of:
 - The resilience of our product (I witnessed 100-fold growth in traffic with no notable downtimes)
 - Maturing into a polyglot programmer (writing code in Erlang, Python, Go, JavaScript)
-- Being the first remote developer in the company
+- Being the first remote developer in the company (creating the path for the others who followed)
 - Taking my productivity to the next level with Emacs.
 
 #+BEGIN_EXPORT latex
@@ -122,9 +119,14 @@ Notable projects:
 - triggering payments from Facebook messenger
 
 
+#+BEGIN_EXPORT latex
+\smallskip
+#+END_EXPORT
+
 {{{cvtag(Erlang)}}}
 {{{cvtag(Python)}}}
 {{{cvtag(Flask)}}}
+{{{cvtag(Django)}}}
 {{{cvtag(FastAPI)}}}
 {{{cvtag(SQLAlchemy)}}}
 {{{cvtag(Go)}}}
@@ -158,7 +160,10 @@ Projects:
 - Front End and Back End development
 - Integration with internal systems
 - Integration with 3rd party AML service
-- Migrating data
+
+#+BEGIN_EXPORT latex
+\smallskip
+#+END_EXPORT
 
 {{{cvtag(Java)}}}
 {{{cvtag(JSF)}}}
@@ -198,6 +203,10 @@ Notable projects:
 - Customization of the flagship OTA (Over-the-Air) subscription management platform for one of the global Telco leaders
 - Customization of a solution for Mobile Network Operators (written in PHP, C and bash) for worlwide customers
 
+#+BEGIN_EXPORT latex
+\smallskip
+#+END_EXPORT
+
 {{{cvtag(Java)}}}
 {{{cvtag(JSF)}}}
 {{{cvtag(EJB)}}}
@@ -236,6 +245,10 @@ Notable projects:
 - development of a core banking software solution in Java for a large Italian bank
 - development of a workflow-based solution for a leading German bank
 
+#+BEGIN_EXPORT latex
+\smallskip
+#+END_EXPORT
+
 {{{cvtag(Java)}}}
 {{{cvtag(JSF)}}}
 {{{cvtag(EJB)}}}
@@ -268,11 +281,30 @@ Notable projects:
 \switchcolumn
 #+end_export
 ** Skills
-{{{cvtag(Python)}}}
-{{{cvtag(FastAPI)}}}
-{{{cvtag(SQLAlchemy)}}}
 {{{cvtag(Erlang)}}}
+{{{cvtag(Python)}}}
+{{{cvtag(Go)}}}
+{{{cvtag(Java)}}}
+{{{cvtag(COBOL)}}}
+
+{{{divider}}}
+
+{{{cvtag(PostgreSQL)}}}
+{{{cvtag(Docker)}}}
+{{{cvtag(AWS)}}}
+
+{{{divider}}}
+
+{{{cvtag(Git)}}}
+{{{cvtag(Emacs)}}}
+{{{cvtag(bash)}}}
+{{{cvtag(tmux)}}}
+
+
+** Skills erlang :noexport:
+{{{cvtag(Erlang/OTP)}}}
 {{{cvtag(Cowboy)}}}
+{{{cvtag(Python)}}}
 {{{cvtag(Java)}}}
 {{{cvtag(Go)}}}
 {{{cvtag(COBOL)}}}
@@ -282,7 +314,6 @@ Notable projects:
 {{{cvtag(PostgreSQL)}}}
 {{{cvtag(Docker)}}}
 {{{cvtag(AWS)}}}
-{{{cvtag(Grafana K6)}}}
 
 {{{divider}}}
 
@@ -290,6 +321,51 @@ Notable projects:
 {{{cvtag(Emacs)}}}
 {{{cvtag(bash)}}}
 {{{cvtag(tmux)}}}
+
+
+** Skills python :noexport:
+{{{cvtag(Python)}}}
+{{{cvtag(FastAPI)}}}
+{{{cvtag(SQLAlchemy)}}}
+{{{cvtag(Erlang)}}}
+{{{cvtag(Java)}}}
+{{{cvtag(Go)}}}
+{{{cvtag(COBOL)}}}
+
+{{{divider}}}
+
+{{{cvtag(PostgreSQL)}}}
+{{{cvtag(Docker)}}}
+{{{cvtag(AWS)}}}
+
+{{{divider}}}
+
+{{{cvtag(Git)}}}
+{{{cvtag(Emacs)}}}
+{{{cvtag(bash)}}}
+{{{cvtag(tmux)}}}
+
+
+** Skills java :noexport:
+{{{cvtag(Java/Java EE)}}}
+{{{cvtag(Python)}}}
+{{{cvtag(Erlang)}}}
+{{{cvtag(Go)}}}
+{{{cvtag(COBOL)}}}
+
+{{{divider}}}
+
+{{{cvtag(PostgreSQL)}}}
+{{{cvtag(Docker)}}}
+{{{cvtag(AWS)}}}
+
+{{{divider}}}
+
+{{{cvtag(Git)}}}
+{{{cvtag(Emacs)}}}
+{{{cvtag(bash)}}}
+{{{cvtag(tmux)}}}
+
 
 ** Education
 
@@ -299,7 +375,21 @@ Notable projects:
 
 {{{cvevent(BS Economic Cybernetics, University of Economic Studies Bucharest, Oct 2006 - July 2009,)}}}
 
-** My Life Philosophy
+
+** Certifications java :noexport:
+
+{{{cvevent(Oracle Certified Expert, Java EE 6 Entreprise JavaBeans Developer, Dec 2012 )}}}
+
+{{{divider}}}
+
+{{{cvevent(Oracle Certified Expert, Java EE 6 Java Server Pages and Servlets Developer, Dec 2011 )}}}
+
+{{{divider}}}
+
+{{{cvevent(Oracle Certified Professional Java Programmer for SE 6.0, Sep 2010 )}}}
+
+
+** Philosophy
 #+begin_export latex
 \medskip
 \begin{quote}
@@ -307,6 +397,7 @@ Notable projects:
 \end{quote}
 \bigskip
 #+end_export
+
 ** Languages :ignore:
 #+begin_export latex
 \cvsection{Languages}
@@ -330,21 +421,23 @@ Notable projects:
 
 \newpage
 
+
 ** Newpage :ignore:
 #+BEGIN_EXPORT latex
 \newpage
 #+END_EXPORT
+
 
 ** Most Proud Of
 {{{cvachievement(\faUsers, Team player, Established myself as a confident\, enthusiastic and effective team member\, having experience leading as well as following.)}}}
 
 {{{divider}}}
 
-{{{cvachievement(\faBook, Polyglot programmer, Comfortable writing code in different programming languages \, understanding that each .)}}}
+{{{cvachievement(\faBook, Polyglot programmer, Comfortable writing code in different programming languages\, understanding that each has its own merits\, especially by casting a new light on the problems.)}}}
 
 {{{divider}}}
 
-{{{cvachievement(\faTerminal, Touch typer, Using the mouse less and less\, leveraging the productivity offered by the terminal, Emacs and my Moonlander split keyboard.)}}}
+{{{cvachievement(\faTerminal, Touch typer, Using the mouse less and less\, leveraging the productivity offered by the terminal\, Emacs and my Moonlander split keyboard.)}}}
 
 {{{divider}}}
 
@@ -356,7 +449,7 @@ Notable projects:
 
 {{{divider}}}
 
-{{{cvachievement(\faFilm, Hobbyist film-maker, Director and/or editor of several amateur short film productions\, including the recipient of the Jameson Done in 60 Seconds first prize for the Romanian stage in 2012)}}}
+{{{cvachievement(\faFilm, Hobbyist film-maker, Director and/or editor of several amateur short film productions\, including the recipient of the Jameson Done in 60 Seconds first prize for the Romanian stage in 2012.)}}}
 
 
 * Back Matter :ignore:
