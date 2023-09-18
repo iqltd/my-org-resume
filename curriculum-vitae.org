@@ -192,7 +192,7 @@ Things I am proud of:
 
 - Building a continuous integration infrastructure for our application.
 - Informally leading a team of 4 for a 3-months project.
-- Building the back end for a service with 85%+ test coverage.
+- Building (in a solo project) the back end for a service with 85%+ test coverage.
 - Kept my sanity after working on a project where bash was used as a programming language.
 
 #+BEGIN_EXPORT latex
@@ -217,7 +217,6 @@ Notable projects:
 {{{cvtag(bash)}}}
 {{{cvtag(C)}}}
 {{{cvtag(PHP)}}}
-{{{cvtag(MySQL)}}}
 
 *** IBM Romania :ignore:
 {{{par-div}}}
